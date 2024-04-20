@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahi Fitness</title>
+
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/dist/boxicons.js' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="head-Container" id="navbar">
+        <div class="logo"> <span class="red">Mahi </span>Fitness</div>
+        <ul class="nav-box">
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Our Features</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="carousel">
+        <div class="carousel-container">
+
+            <div class="carousel-item">
+                <div class="box">
+                    <h1 class="redText">Gym & Fitness Center</h1>
+                    <div class="bigText">Get Body In Town</div>
+                    <button type="submit">Join Us Now</button>
+                </div>
+                <img src="./img/carousel-1.jpg" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <div class="box">
+                    <h1 class="redText">Gym & Fitness Center</h1>
+                    <div class="bigText">Get Body In Shape</div>
+                    <button type="submit">Join Us Now</button>
+                </div>
+                <img src="./img/carousel-2.jpg" alt="Slide 2">
+            </div>
+
+        </div>
+        <button class="carousel-button prev" onclick="prevSlide()">Prev</button>
+        <button class="carousel-button next" onclick="nextSlide()">Next</button>
+    </div>
+
+    <div class="containerWithBoxesAndExp">
+        <div class="twoBox-container">
+            <div class="boxes" id="bodyBuilding">
+                <div class="BigText">Body Building</div>
+                <p class="text">Transform your physique with our intensive bodybuilding training at the gym. Our expert
+                    trainers will guide you through tailored workouts, helping you sculpt your muscles and achieve your
+                    fitness goals. Join us today and unleash your strength!</p>
+                <button class="btn" type="submit">Join Now</button>
+
+                <div class="imgslideLogoBox imgslideLogoBox-left" id="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3306/3306834.png" alt="">
+                </div>
+            </div>
+            <div class="boxes" id="muscleBuilding">
+                <div class="BigText">Muscles Building</div>
+                <p class="text">Experience unparalleled muscle-building results at our gym. Our dedicated trainers and
+                    cutting-edge equipment ensure targeted workouts for maximum gains. Join us now and embark on your
+                    journey to a stronger, more muscular physique.</p>
+                <button class="btn" type="submit">Join Now</button>
+                <div class="imgslideLogoBox imgslideLogoBox-right" id="">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7198/7198818.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="imgWithExp ">
+            <div class="boxes" id="boxImg">
+                <!-- <img src="./img/about.jpg" alt=""> -->
+            </div>
+            <div class="boxes boxExp" id="boxExp">
+                <h3 class="Expheading">10 Years Experience</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, eveniet.</p>
+                <div class="iconText">
+                    <div class="iconBox">
+                        <i class="icon"><img class="logoImg"
+                                src="https://cdn-icons-png.flaticon.com/512/1786/1786983.png " alt=""></i>
+                        <h3 class="small-heading">Certified GYM Center</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, repellendus.</p>
+                    </div>
+                    <div class="iconBox">
+                        <i class="icon flaticon-barbell"> <img class="logoImg"
+                                src="https://cdn-icons-png.flaticon.com/512/1786/1786983.png " alt=""></i>
+                        <h3 class="small-heading">Award Winning</h3>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa, repellendus.</p>
+                    </div>
+                </div>
+                <div class="btnBox">
+                    <button class="btn">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="threeSection">
+
+        <div class="progression ">
+            <div class="logoBox">
+                <img src="https://cdn-icons-png.flaticon.com/512/7118/7118260.png" alt="">
+            </div>
+            <div class="textBox">
+                <h3 class="heading">Progression</h3>
+                <p class="para">Incremental gains, heavier weights, longer runs, deeper stretches—evolving strength,
+                    endurance, flexibility, sculpting bodies, achieving fitness milestones.
+            </div>
+        </div>
+
+        <div class="Workout ">
+            <div class="logoBox">
+                <img src="https://cdn-icons-png.flaticon.com/512/3081/3081079.png" alt="">
+            </div>
+            <div class="textBox">
+                <h3 class="heading"> Workout </h3>
+                <p class="para"> Sweat, grind, sculpt, tone muscles, burn fat, boost stamina, enhance flexibility,
+                    improve health, unleash energy, elevate mood.</p>
+            </div>
+        </div>
+
+        <div class="Nutrition ">
+            <div class="logoBox">
+                <img src="https://cdn-icons-png.flaticon.com/512/2523/2523472.png" alt="">
+            </div>
+            <div class="textBox">
+                <h3 class="heading">Nutrition </h3>
+                <p class="para">Fuel your body with protein, carbs, healthy fats, vitamins, and minerals to support
+                    muscle growth, recovery, and overall performance.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="benifit-Container">
+        <div class="question">Why Choose Us?</div>
+        <div class="benifis-head">Benifits of Joining Our GYM</div>
+        <div class="fourBox-Container">
+            <div class="bOxes">
+                <div class="imgBox">
+                    <img src="./img/feature-1.jpg" alt="">
+                    <div class="logoBox">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1786/1786983.png " alt="">
+                    </div>
+                </div>
+                <div class="textBox">
+                    <h3 class="heading">Videos Instruction</h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum iste
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum iste </p>
+                </div>
+            </div>
+            <div class="bOxes">
+                <div class="imgBox">
+                    <img src="./img/feature-2.jpg" alt="">
+                    <div class="logoBox">
+                        <img src="https://cdn-icons-png.flaticon.com/512/7118/7118260.png" alt="">
+                    </div>
+                </div>
+                <div class="textBox">
+                    <h3 class="heading">Training Calendar</h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum iste
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum iste </p>
+                </div>
+            </div>
+            <div class="bOxes">
+                <div class="imgBox">
+                    <img src="./img/feature-3.jpg" alt="">
+                    <div class="logoBox">
+                        <img src="https://cdn-icons-png.flaticon.com/512/5694/5694300.png" alt="">
+                    </div>
+                </div>
+                <div class="textBox">
+                    <h3 class="heading">Free Apps & WiFi</h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum
+                        isteLorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum iste </p>
+                </div>
+            </div>
+            <div class="bOxes">
+                <div class="imgBox">
+                    <img src="./img/feature-4.jpg" alt="">
+                    <div class="logoBox">
+                        <img src="https://cdn-icons-png.flaticon.com/512/1189/1189206.png" alt="">
+                    </div>
+                </div>
+                <div class="textBox">
+                    <h3 class="heading">Community Support</h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum iste
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis earum iste </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subscribe-Container">
+        <div class="heading">Subscribe Our Newsletter</div>
+        <p class="para">Subscribe and get our latest article in you inbox</p>
+        <form action="">
+            <input type="email" placeholder="Your Email">
+            <button class="btn">Subscribe</button>
+        </form>
+    </div>
+
+    <div class="timeTable-Container">
+        <div class="text">Class Timetable</div>
+        <div class="heading">Working Hours and Class Time</div>
+        <div class="items">
+            <span id="main-btn" class="active">All Classes</span>
+            <span id="cardio-btn">Cardio</span>
+            <span id="Crossfit-btn">Crossfit</span>
+            <span id="Powerlifting-btn">Powerlifting</span>
+        </div>
+        <table class="table-container">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="time">6.00am-8.00am</td>
+                    <td class="Cardio">
+                        Cardio <span class="name">John Deo</span>
+                    </td>
+                    <td></td>
+                    <td class="Crossfit">
+                        Crossfit <span class="name">Adam Phillips</span>
+                    </td>
+                    <td></td>
+                    <td class="Powerlifting">
+                        Power Lifting <span class="name">James Alien</span>
+                    </td>
+                    <td></td>
+                    <td class="Cardio">
+                        Cardio <span class="name">John Deo</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="time">10.00am-12.00am</td>
+                    <td></td>
+                    <td class="Powerlifting">
+                        Power Lifting <span class="name">James Alien</span>
+                    </td>
+                    <td></td>
+                    <td class="Cardio">
+                        Cardio <span class="name">John Deo</span>
+                    </td>
+                    <td></td>
+                    <td class="Crossfit">
+                        Clossfit <span class="name">Adam Phillips</span>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="time">5.00pm-8.00pm</td>
+                    <td class="Crossfit">
+                        Crossfit <span class="name">Adam Phillips</span>
+                    </td>
+                    <td></td>
+                    <td class="Powerlifting">
+                        Power Lifting <span class="name">James Alien</span>
+                    </td>
+                    <td></td>
+                    <td class="Cardio">
+                        Cardio <span class="name">John Deo</span>
+                    </td>
+                    <td></td>
+                    <td class="Crossfit">
+                        Crossfit <span class="name">Adam Phillips</span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="time"> 7.00am-9.00am</td>
+                    <td></td>
+                    <td class="Cardio">
+                        Cardio <span class="name">John Deo</span>
+                    </td>
+                    <td></td>
+                    <td class="Crossfit">
+                        Clossfit <span class="name">Adam Phillips</span>
+                    </td>
+                    <td></td>
+                    <td class="Powerlifting">
+                        Power Lifting <span class="name">James Alien</span>
+                    </td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="bmi-container">
+        <div class="whatBmi-Box">
+            <div class="text">Body Mass Index</div>
+            <div class="question">What is BMI?</div>
+            <div class="para">BMI, or Body Mass Index, is a numerical value derived from a person's weight and height.
+                It provides an indication of body fatness and helps assess health risks associated with weight, serving
+                as a screening tool in healthcare settings.</div>
+        </div>
+        <div class="calculate-Bmi-Box">
+            <h3>Calculate your BMI</h3>
+            <div class="form">
+                <div class="formData-box">
+                    <input type="text" id="weight" placeholder="Weight (KG)">
+                    <input type="text" id="height" placeholder="Height (CM)">
+                    <input type="text" id="age" placeholder="Age">
+                    <!-- <input type="text" placeholder="Age"> -->
+                    <select name="" id="selectoption">
+                        <option value="gender" selected>Gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
+                </div>
+                <button type="submit" id="CalculateBMI-btn">Calculate Now</button>
+
+                <div class="showResult">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="trainer-Container">
+        <div class="text">Our Trainers</div>
+        <div class="heading">Meet Our Expert Trainers</div>
+        <div class="fourTrainer-container">
+            <div class="box">
+                <img src="./img/team-1.jpg" alt="">
+                <div class="NameBlackBox">
+                    <h3 class="t-name">Trainer Name</h3>
+                    <span>Trainer</span>
+                </div>
+                <div class="transformBox">
+                    <div class="logo">
+                        <i class='bx bxl-twitter'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-facebook'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-linkedin'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/team-2.jpg" alt="">
+                <div class="NameBlackBox">
+                    <h3 class="t-name">Trainer Name</h3>
+                    <span>Trainer</span>
+                </div>
+                <div class="transformBox">
+                    <div class="logo">
+                        <i class='bx bxl-twitter'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-facebook'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-linkedin'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/team-3.jpg" alt="">
+                <div class="NameBlackBox">
+                    <h3 class="t-name">Trainer Name</h3>
+                    <span>Trainer</span>
+                </div>
+                <div class="transformBox">
+                    <div class="logo">
+                        <i class='bx bxl-twitter'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-facebook'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-linkedin'></i>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./img/team-4.jpg" alt="">
+                <div class="NameBlackBox">
+                    <h3 class="t-name">Trainer Name</h3>
+                    <span>Trainer</span>
+                </div>
+                <div class="transformBox">
+                    <div class="logo">
+                        <i class='bx bxl-twitter'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-instagram-alt'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-facebook'></i>
+                    </div>
+                    <div class="logo">
+                        <i class='bx bxl-linkedin'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="client-container">
+        <div class="clientCrousoal">
+            <div class="c-container">
+                <div class="c-box">
+                  <div class="imgBox-withText">
+                    <div class="img">
+                        <img src="./img/testimonial-1.jpg" alt="">
+                    </div>
+                    <div class="c-name">Clinet Name</div>
+                    <div class="c-work">Profession</div>
+                  </div>
+                  <div class="c-para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolor repudiandae ut rerum totam ex vel culpa non eos eligendi! Nesciunt eius eos quidem praesentium ipsam maxime corrupti tenetur suscipit.</div>
+                </div>
+            </div>
+        </div>
+        <div class="clientSay">
+            <h3 class="testimonial">Testimonial</h3>
+            <div class="question">What Our Clients Say?</div>
+            <p class="para">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis veniam, repellendus optio iusto, impedit illum alias nam accusantium quod illo dolore blanditiis harum excepturi. Eveniet porro adipisci ipsa architecto ab?</p>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./js/script.js"></script>
+
+
+</body>
+
+</html>
